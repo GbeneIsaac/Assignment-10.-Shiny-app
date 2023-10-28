@@ -2,6 +2,7 @@ library(shiny)
 library(rsconnect)
 library(usmap)
 library(ggplot2)
+library (stringr)
 
 file_path <- "Accident.10.csv"
 AccidentData <- read.csv(file_path, fileEncoding="UTF-8-BOM")
